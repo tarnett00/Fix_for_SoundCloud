@@ -1,0 +1,1 @@
+javascript:document.getElementsByClassName("waveform__scene")[0].addEventListener("mousedown", function(e){var overEvent = new MouseEvent("touchstart",{'bubbles':true,'clientX':e.clientX,'clientY':e.clientY,'screenY':e.screenY,'screenX':e.screenX});document.getElementsByClassName("waveform__scene")[0].dispatchEvent(overEvent);});
